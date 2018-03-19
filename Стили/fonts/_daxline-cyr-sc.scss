@@ -1,0 +1,6 @@
+$daxlinecyrsc-path: '../fonts/';
+$daxlinecyrsc-name: 'daxlinecyrsc';
+$daxlinecyrsc-map: (
+  400:'/regular'
+);
+@include font-mixin(normal, $daxlinecyrsc-path,  $daxlinecyrsc-name, $daxlinecyrsc-map)

@@ -1,0 +1,6 @@
+$franklinGothicMediumCond-path: '../fonts/';
+$franklinGothicMediumCond-name: 'franklin-gothic-medium-сond';
+$franklinGothicMediumCond-map: (
+  400: '/regular'
+);
+@include font-mixin(normal, $franklinGothicMediumCond-path,  $franklinGothicMediumCond-name, $franklinGothicMediumCond-map)

@@ -1,0 +1,9 @@
+$geometria-path: '../fonts/';
+$geometria-name: 'geometria';
+$geometria-map: (
+  300: '/light',
+  400: '/regular',
+  700: '/bold',
+  900: '/extablack'
+);
+@include font-mixin(normal, $geometria-path,  $geometria-name, $geometria-map)

@@ -1,0 +1,13 @@
+$pfDinTextCondPro-path: '../fonts/';
+$pfDinTextCondPro-name: 'pf-din-text-cond-pro';
+$pfDinTextCondPro-map: (
+  100:'/xthin',
+  200:'/thin',
+  300:'/light',
+  400:'/regular',
+  500:'/medium',
+  700:'/bold',
+  900:'/xblack'
+);
+@include font-mixin(normal, $pfDinTextCondPro-path,  $pfDinTextCondPro-name, $pfDinTextCondPro-map) 
+@include font-mixin(italic, $pfDinTextCondPro-path,  $pfDinTextCondPro-name, $pfDinTextCondPro-map) 

@@ -1,0 +1,9 @@
+$robotoCondensed-path: '../fonts/';
+$robotoCondensed-name: 'roboto-condensed';
+$robotoCondensed-map: (
+  300: '/light',
+  400: '/regular',
+  700: '/bold'
+);
+@include font-mixin(normal, $robotoCondensed-path,  $robotoCondensed-name, $robotoCondensed-map)
+@include font-mixin(italic, $robotoCondensed-path,  $robotoCondensed-name, $robotoCondensed-map)

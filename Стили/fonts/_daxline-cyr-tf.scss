@@ -1,0 +1,7 @@
+$daxlinecyrtf-path: '../fonts/';
+$daxlinecyrtf-name: 'daxlinecyrtf';
+$daxlinecyrtf-map: (
+  700:'/bold',
+  900:'/extrabold'
+);
+@include font-mixin(normal, $daxlinecyrtf-path,  $daxlinecyrtf-name, $daxlinecyrtf-map)

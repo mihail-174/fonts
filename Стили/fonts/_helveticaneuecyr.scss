@@ -1,0 +1,14 @@
+$helveticaneuecyr-path: '../fonts/';
+$helveticaneuecyr-name: 'helveticaneuecyr';
+$helveticaneuecyr-map: (
+  100: '/ultralight',
+  200: '/thin',
+  300: '/light',
+  400: '/roman',
+  500: '/medium',
+  700: '/bold',
+  800: '/heavy',
+  900: '/black'
+);
+@include font-mixin(normal, $helveticaneuecyr-path,  $helveticaneuecyr-name, $helveticaneuecyr-map)
+@include font-mixin(italic, $helveticaneuecyr-path,  $helveticaneuecyr-name, $helveticaneuecyr-map)

@@ -1,0 +1,35 @@
+@mixin font-mixin ($style, $main-path, $family, $map){
+  $dir-name: $family + '/'; // Генерируем название директории, в которой находится шрифт
+  @each $weight, $path in $map{
+    @font-face {
+      font-family: $family;
+      src: url('#{$main-path + $dir-name + $style + $path}.eot');
+      src: url('#{$main-path + $dir-name + $style + $path}.eot?#iefix') format('embedded-opentype'),
+      url('#{$main-path + $dir-name + $style + $path}.woff2') format('woff2'),
+      url('#{$main-path + $dir-name + $style + $path}.woff') format('woff'),
+      url('#{$main-path + $dir-name + $style + $path}.ttf')  format('truetype'),
+      url('#{$main-path + $dir-name + $style + $path}.svg##{$family}')  format('svg');
+      font-style: $style;
+      font-weight: $weight;
+    }
+  }
+}
+
+@import './fonts/_alsschlangesans';
+@import './fonts/_antipastopro';
+@import './fonts/_daxline-cyr-lf';
+@import './fonts/_daxline-cyr-sc';
+@import './fonts/_daxline-cyr-tf';
+@import './fonts/_daxline-pro';
+@import './fonts/_dinpro';
+@import './fonts/_franklin-gothic-medium-сond';
+@import './fonts/_futura-pt';
+@import './fonts/_geometria';
+@import './fonts/_helveticaneuecyr';
+@import './fonts/_myriadpro';
+@import './fonts/_oswald';
+@import './fonts/_pf-din-text-cond-pro';
+@import './fonts/_roboto';
+@import './fonts/_roboto-condensed';
+@import './fonts/_roboto-slab';
+@import './fonts/_rouble';

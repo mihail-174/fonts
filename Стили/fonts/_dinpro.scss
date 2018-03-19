@@ -1,0 +1,10 @@
+$dinpro-path: '../fonts/';
+$dinpro-name: 'dinpro';
+$dinpro-map: (
+  300: '/light',
+  400: '/regular',
+  500: '/medium',
+  700: '/bold',
+  900: '/black'
+);
+@include font-mixin(normal, $dinpro-path,  $dinpro-name, $dinpro-map)

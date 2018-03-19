@@ -1,0 +1,8 @@
+$myriadpro-path: '../fonts/';
+$myriadpro-name: 'myriadpro';
+$myriadpro-map: (
+  400:'/regular',
+  500:'/semibold',
+  700:'/bold'
+);
+@include font-mixin(normal, $myriadpro-path,  $myriadpro-name, $myriadpro-map)

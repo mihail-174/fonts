@@ -1,0 +1,12 @@
+$roboto-path: '../fonts/';
+$roboto-name: 'roboto';
+$roboto-map: (
+  100: '/thin',
+  300: '/light',
+  400: '/regular',
+  500: '/medium',
+  700: '/bold',
+  900: '/black'
+);
+@include font-mixin(normal, $roboto-path,  $roboto-name, $roboto-map)
+@include font-mixin(italic, $roboto-path,  $roboto-name, $roboto-map)

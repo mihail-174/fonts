@@ -1,0 +1,10 @@
+$alsschlangesans-path: '../fonts/';
+$alsschlangesans-name: 'alsschlangesans';
+$alsschlangesans-map: (
+  100: '/thin',
+  300: '/light',
+  400: '/regular',
+  700: '/bold',
+  900: '/black'
+);
+@include font-mixin(normal, $alsschlangesans-path,  $alsschlangesans-name, $alsschlangesans-map)

@@ -1,0 +1,9 @@
+$antipastopro-path: '../fonts/';
+$antipastopro-name: 'antipastopro';
+$antipastopro-map: (
+  300: '/extralight',
+  500: '/regular',
+  700: '/demibold',
+  900: '/extrabold'
+);
+@include font-mixin(normal, $antipastopro-path,  $antipastopro-name, $antipastopro-map)

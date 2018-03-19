@@ -1,0 +1,11 @@
+$futurapt-path: '../fonts/';
+$futurapt-name: 'futura-pt';
+$futurapt-map: (
+  300: '/light',
+  400: '/book',
+  500: '/medium',
+  600: '/demi',
+  700: '/heavy',
+  900: '/bold'
+);
+@include font-mixin(normal, $futurapt-path,  $futurapt-name, $futurapt-map)

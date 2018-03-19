@@ -1,0 +1,9 @@
+$robotoSlab-path: '../fonts/';
+$robotoSlab-name: 'roboto-slab';
+$robotoSlab-map: (
+  100: '/thin',
+  300: '/light',
+  400: '/regular',
+  700: '/bold'
+);
+@include font-mixin(normal, $robotoSlab-path,  $robotoSlab-name, $robotoSlab-map)

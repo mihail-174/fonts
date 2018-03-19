@@ -1,0 +1,6 @@
+$daxlinecyrlf-path: '../fonts/';
+$daxlinecyrlf-name: 'daxlinecyrlf';
+$daxlinecyrlf-map: (
+  300: '/light'
+);
+@include font-mixin(normal, $daxlinecyrlf-path,  $daxlinecyrlf-name, $daxlinecyrlf-map)

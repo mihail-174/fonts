@@ -1,0 +1,9 @@
+$daxlinepro-path: '../fonts/';
+$daxlinepro-name: 'daxline-pro';
+$daxlinepro-map: (
+  300: '/light',
+  400: '/regular',
+  700: '/bold',
+  800: '/extrabold'
+);
+@include font-mixin(normal, $daxlinepro-path,  $daxlinepro-name, $daxlinepro-map)

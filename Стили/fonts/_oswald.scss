@@ -1,0 +1,8 @@
+$oswald-path: '../fonts/';
+$oswald-name: 'oswald';
+$oswald-map: (
+  400: '/regular',
+  500: '/medium',
+  700: '/bold'
+);
+@include font-mixin(normal, $oswald-path,  $oswald-name, $oswald-map)

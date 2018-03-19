@@ -1,0 +1,6 @@
+$rouble-path: '../fonts/';
+$rouble-name: 'rouble';
+$rouble-map: (
+  400: '/rouble'
+);
+@include font-mixin(normal, $rouble-path,  $rouble-name, $rouble-map)
