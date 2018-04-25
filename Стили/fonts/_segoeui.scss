@@ -1,0 +1,9 @@
+$segoeui-path: '../fonts/';
+$segoeui-name: 'segoeui';
+$segoeui-map: (
+  300: '/light',
+  400: '/regular',
+  600: '/semibold',
+  700: '/bold'
+);
+@include font-mixin(normal, $segoeui-path,  $segoeui-name, $segoeui-map)
