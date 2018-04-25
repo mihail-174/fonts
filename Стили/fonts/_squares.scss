@@ -1,0 +1,6 @@
+$squares-path: '../fonts/';
+$squares-name: 'squares';
+$squares-map: (
+  700: '/bold'
+);
+@include font-mixin(normal, $squares-path,  $squares-name, $squares-map)
