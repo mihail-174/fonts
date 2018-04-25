@@ -1,0 +1,6 @@
+$impact-path: '../fonts/';
+$impact-name: 'impact';
+$impact-map: (
+  400: '/regular'
+);
+@include font-mixin(normal, $impact-path,  $impact-name, $impact-map)
