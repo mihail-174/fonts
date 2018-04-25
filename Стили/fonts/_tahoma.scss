@@ -1,0 +1,7 @@
+$tahoma-path: '../fonts/';
+$tahoma-name: 'tahoma';
+$tahoma-map: (
+  400: '/regular',
+  700: '/bold'
+);
+@include font-mixin(normal, $tahoma-path,  $tahoma-name, $tahoma-map)
