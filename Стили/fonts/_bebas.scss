@@ -1,0 +1,10 @@
+$bebas-path: '../fonts/';
+$bebas-name: 'bebas';
+$bebas-map: (
+  100: '/thin',
+  200: '/light',
+  300: '/book',
+  400: '/regular',
+  700: '/bold'
+);
+@include font-mixin(normal, $bebas-path,  $bebas-name, $bebas-map)
