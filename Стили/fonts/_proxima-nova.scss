@@ -1,0 +1,8 @@
+$tahoma-path: '../fonts/';
+$tahoma-name: 'proxima-nova';
+$tahoma-map: (
+  400: '/regular',
+  700: '/bold',
+  900: '/black'
+);
+@include font-mixin(normal, $tahoma-path,  $tahoma-name, $tahoma-map)
