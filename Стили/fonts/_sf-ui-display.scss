@@ -1,0 +1,16 @@
+$rouble-path: '../fonts/';
+$rouble-name: 'sf-ui-display';
+$rouble-map: (
+    200: '/light',
+    400: '/regular',
+    700: '/bold',
+    100: '/ultralight',
+    100: '/thin',
+    200: '/light',
+    400: '/medium',
+    500: '/semibold',
+    600: '/bold',
+    700: '/heavy',
+    900: '/black'
+);
+@include font-mixin(normal, $rouble-path,  $rouble-name, $rouble-map);

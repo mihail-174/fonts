@@ -1,8 +1,13 @@
 $LatoPro-path: '../fonts/';
 $LatoPro-name: 'lato';
 $LatoPro-map: (
-  400: '/medium',
+  100: '/hairline',
+  300: '/light',
+  400: '/regular',
+  500: '/medium',
+  600: '/semibold',
   700: '/bold',
-  900: '/heavy'
+  800: '/heavy',
+  900: '/black',
 );
 @include font-mixin(normal, $LatoPro-path,  $LatoPro-name, $LatoPro-map);

@@ -1,0 +1,11 @@
+$rouble-path: '../fonts/';
+$rouble-name: 'formular';
+$rouble-map: (
+    100: '/extralight',
+    300: '/light',
+    400: '/regular',
+    600: '/medium',
+    700: '/bold',
+    900: '/black'
+);
+@include font-mixin(normal, $rouble-path,  $rouble-name, $rouble-map);
