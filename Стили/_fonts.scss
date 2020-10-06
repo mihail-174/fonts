@@ -11,6 +11,7 @@
       url('#{$main-path + $dir-name + $style + $path}.svg##{$family}')  format('svg');
       font-style: $style;
       font-weight: $weight;
+      font-display: swap;
     }
   }
 }
